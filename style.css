@@ -456,3 +456,45 @@ input:focus{
     color: white;
     background-color: #acc960;
 }
+
+
+/* footer */
+
+#footer{
+    background-color: #3a92b3;
+    color: white;
+}
+#footer .container{
+    display: flex;
+}
+#footer .div1{
+    width: 20%;
+}
+#footer h3{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    width: 87%;
+    border-bottom: white 0.14vw dotted;
+}
+#footer .div1 p{
+    font-size: 0.9vw;
+    color: #c7edf5;
+}
+#footer i{
+    color: white;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 2vw;
+}
+#footer input{
+    width: 87%;
+    height: 2.5vw;
+    border: none;
+    padding-left: 1vw;
+    font-size: 0.8vw;
+}
+#footer .footer2{
+    padding: 3vw;
+    font-size: 0.8vw;
+}
