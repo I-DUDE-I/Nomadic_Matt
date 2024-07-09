@@ -218,7 +218,7 @@ input:focus{
     justify-content: center;
     flex-wrap: wrap;
     gap: 0.8vw;
-    padding-bottom: 2vw;
+    padding-bottom: 5vw;
 }
 #section1 .div{
     width: 30%;
@@ -229,7 +229,7 @@ input:focus{
     width: 100%;
     height: 100%;
     margin-bottom: 0px;
-    padding-top: 4vw;
+    padding-top: 20%;
     color: white;
     font-size: 1.5vw;
     backdrop-filter: brightness(0.8);
@@ -273,4 +273,54 @@ input:focus{
 #section1 .div9{
     background-image: url(./image/grid9.jpg);
     background-size: contain;
+}
+
+
+/* section2 */
+#section2{
+    background-color: #eef0f2;
+}
+#section2 .container{
+    display: flex;
+    padding: 3vw;
+}
+#section2 .div1{
+    width: 60%;
+}
+#section2 .div2{
+    width: 40%;
+}
+#section2 h1{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.8vw;
+}
+#section2 img{
+    width: 90%;
+}
+#section2 p{
+    font-size: 1vw;
+    padding-right: 3vw;
+}
+#section2 .sp{
+    color: #2ca0c4;
+    font-weight: bold;
+    transition: all .2s ease-out;
+}
+#section2 .sp:hover{
+    color: black;
+    cursor: pointer;
+}
+#section2 li{
+    font-size: 1vw;
+    color: #2ca0c4;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+#section2 li:hover{
+    color: black;
+}
+#section2 h2{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.2vw;
+    padding: 1vw;
 }
