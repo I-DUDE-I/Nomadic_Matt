@@ -498,3 +498,19 @@ input:focus{
     padding: 3vw;
     font-size: 0.8vw;
 }
+
+
+
+/* arrow button */
+.button{
+    position: fixed;
+    bottom: 5vw;
+    right: 2vw;
+}
+.button button{
+    width: 2vw;
+    height: 2vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    color: white;
+}
