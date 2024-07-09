@@ -324,3 +324,93 @@ input:focus{
     font-size: 1.2vw;
     padding: 1vw;
 }
+
+
+
+/* section3 */
+#section3 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw;
+}
+#section3 .div1{
+    width: 100%;
+    display: flex;
+    gap: 2vw;
+}
+#section3 .div11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#section3 .div1 img{
+    width: 25%;
+}
+#section3 h1{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.8vw;
+}
+#section3 .div11 p{
+    font-size: 1.1vw;
+}
+#section3 button{
+    font-family: "Fjalla One", sans-serif;
+    color: white;
+    font-weight: bolder;
+    background-color: #3a92b3;
+    width: 10vw;
+    height: 2.7vw;
+    font-size: 1.2vw;
+    border-radius: 0.5vw;
+    border: none;
+}
+#section3 .horizontal{
+    width: 43vw;
+    padding: 2vw;
+}
+
+#section3 .div2{
+    width: 100%;
+    display: flex;
+    padding-top: 2vw;
+    gap: 2vw;
+}
+#section3 .div2 img{
+    width: 20%;
+}
+#section3 h2{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.5vw;
+    color: #2ca0c4;
+}
+#section3 .div2 p{
+    font-size: 1.1vw;
+}
+#section3 .sp{
+    color: #2ca0c4;
+    font-weight: bold;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+#section3 .sp:hover{
+    color: black;
+}
+#section3 .div3{
+    padding-top: 1vw;
+    width: 100%;
+}
+#section3 .div3 p{
+    font-size: 1.1vw;
+}
+#section3 .row{
+    width: 100%;
+    margin-top: 2vw;
+}
+#section3 .row img{
+    width: 100%;
+    height: 100%;
+}
+#section3 .col{
+    aspect-ratio: 1000/1240;
+}
